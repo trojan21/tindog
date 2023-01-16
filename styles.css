@@ -1,0 +1,252 @@
+.container-fluid {
+  padding: 7% 15%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+i {
+  padding-right: 1vh;
+}
+/* SECTIONS */
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+/* Navigation Bar */
+
+.fa-dog {
+  margin-right: 10%;
+}
+
+.fa-dog:hover {
+  color: black;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 19px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+/* TITLE */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  overflow: hidden;
+  position: absolute;
+  right: 23%;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  margin-bottom: 8%;
+  color: #ef7182;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef7182;
+  color: white;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 10%;
+  margin: 2%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef7182;
+}
+
+.press-image {
+  width: 15%;
+  padding: 3% 3% 4%;
+}
+
+/* Font Awesome */
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+i[class^="fa-"]:before {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.fa-dog:hover {
+  color: white;
+}
+
+#footer .fa-dog {
+  font-size: 1rem;
+  margin: 0 0.2% 0 0.75%;
+}
+
+/* Pricing */
+
+.price-text {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.card-header {
+  background-color: #d6d6d6;
+}
+
+.pricing-row {
+  width: 80%;
+  margin-left: 10%;
+  height: 110%;
+}
+
+.one-row,
+.two-row {
+  height: 120%;
+}
+
+/* CTA */
+
+/* Footer */
+
+#footer i {
+  margin: 4% 1% 0 1%;
+  font-size: 1.7rem;
+}
+
+#footer p {
+  margin-top: 2%;
+  font-family: "Montserrat-Bold", sans-serif;
+  color: rgb(153, 153, 153);
+  font-weight: 600;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #e1306c;
+}
+
+.fa-facebook:hover {
+  color: #4267b2;
+}
+
+.fa-envelope:hover {
+  color: #34a853;
+}
+
+/* HEADINGS */
+
+.big-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+/* Media Queries */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1000px) {
+  #title {
+    text-align: left;
+  }
+  .title-image {
+    position: relative;
+    transform: rotate(0);
+    width: 60%;
+    left: 30%;
+  }
+
+  h1 {
+    font-weight: 1rem;
+  }
+}
